@@ -7,8 +7,8 @@ for (let index = 0; index < 50; index++) {
   const data = {
     name: faker.name.findName(),
     address: faker.address.streetAddress(true),
-    createdAt: new Date(),
-    updatedAt: new Date()
+    // createdAt: new Date(),
+    // updatedAt: new Date()
   };
   users[index] = data
 }
